@@ -1,0 +1,91 @@
+body{
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+}
+.section{
+    margin-top: 250px;
+    display: flex;
+    background-color: #D9CDF7;
+    padding: 0px;
+    width: 875px;
+    height: 498px;
+    align-items: center;
+    border-radius: 10px;
+    position: relative;
+}
+.divSofa{
+    display: flex;
+    width: 494px;
+}
+.divSofa .imgSofa{
+    width: 449px;
+    height: 253px;
+}
+
+.btnX,.btn360{
+    border: none;
+    background-color: #D9CDF7;
+    display: flex;
+    width: 33px;
+    height: 23px;
+}
+.btnX img{
+    width: 33px;
+    height: 23px;
+}
+.divInformacoes{
+    font-family: "Lato";
+    font-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+    width: 281px;
+    height: 498px;
+
+}
+.divInformacoes button{
+    font-family: inherit;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    width: 151px;
+    height: 32px;
+    border: 0.5px solid #271A45;
+    border-radius: 999px;
+    box-sizing: border-box;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    background-color: #D9CDF7;
+}
+.divInformacoes h1{
+    font-family: 'Crimson Pro';
+    font-size: 32px;
+    line-height: 32px;
+}
+.divInformacoes h2{
+    width: 65px;
+    height: 16px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: #271A45;
+}
+.divInformacoes h3{
+    width: 75px;
+    height: 10px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 100%;
+    color: #271A45;
+}
